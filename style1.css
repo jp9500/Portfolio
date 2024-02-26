@@ -98,6 +98,8 @@
 .sec:hover{
     background-position: left bottom;
     overflow: hidden;
+    box-shadow: 0 0 30px black;
+    transform: translate(0.08,0.08);
 }
 .head{
     text-align: center;
