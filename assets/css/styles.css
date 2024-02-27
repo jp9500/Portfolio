@@ -524,63 +524,6 @@ img {
     right: 10%;
   }
 }
-
-#animated-text{
-  font-size: 34px;
-  font-weight: 600;
-  min-width: 280px;
-}
-
-#animated-text span{
-  position: relative;
-}
-
-#animated-text span::before{
-  content: "JEYA PRAKASH !";
-  color: linear-gradient(to right, #5001fb, #8e0af3);
-  animation: words 20s infinite;
-}
-
-#animated-text span::after{
-  content: "";
-  position: absolute;
-  width: calc(100% + 8px);
-  height: 100%;
-  background-color: white;
-  border-left: 2px solid #ff7f50;
-  right: -8px;
-  animation: cursor .8s infinite, typing 20s steps(14) infinite;
-}
-
-@keyframes cursor {
-  to{
-      border-left: 2px solid #ff7f5000;
-  }
-}
-
-@keyframes words {
-  0%,20%{
-      content: "JEYA PRAKASH ! ";
-  }
-  21%,40%{
-      content: "JEYA PRAKASH ! ";
-  }
-  41%,60%{
-      content: "JEYA PRAKASH ! ";
-  }
-  61%,80%{
-      content: "JEYA PRAKASH ! ";
-  }
-  81%,100%{
-      content: "JEYA PRAKASH ! ";
-  }
-}
-
-@keyframes typing {
-  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
-      width: 0;
-  }
-  5%,20%,25%,40%,45%,60%,65%,80%,85%{
-      width: calc(100% + 8px);
-  }
+#person{
+    border-radius: 50%;
 }
